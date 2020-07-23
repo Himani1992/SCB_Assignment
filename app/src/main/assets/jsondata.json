@@ -1,0 +1,120 @@
+[{
+	"id": "firstName",
+	"type": "TEXT",
+	"text": "First Name"
+},
+	{
+		"id": "middleName",
+		"type": "TEXT",
+		"text": "Middle Name"
+	},
+	{
+		"id": "lastName",
+		"type": "TEXT",
+		"text": "Last Name"
+	},
+	{
+		"id": "number",
+		"type": "INTEGER",
+		"text": "Contact Number",
+		"validations": [{
+			"type": "LENGTH",
+			"max": 13,
+			"min": 8
+		},
+			{
+				"type": "REQUIRED"
+			}
+		]
+	},
+	{
+		"id": "altnumber",
+		"type": "INTEGER",
+		"text": "Alternate Contact Number",
+		"validations": [{
+			"type": "LENGTH",
+			"max": 13,
+			"min": 8
+		},
+			{
+				"type": "REQUIRED"
+			}
+		]
+	},
+
+	{
+		"id": "emailId",
+		"type": "EMAILID",
+		"text": "Email id"
+	},
+	{
+		"id": "altemailId",
+		"type": "EMAILID",
+		"text": "Alternate Email Id"
+	},
+	{
+		"id": "next1",
+		"type": "BUTTON",
+		"text": "Next"
+	},
+	{
+		"id": "country",
+		"type": "DROPDOWN",
+		"text": "Country",
+		"dataSource": ["India", "USA", "UK"]
+	},
+	{
+		"id": "state",
+		"type": "DROPDOWN",
+		"text": "State",
+		"dataSource": ["Maharashtra", "Kernataka"]
+	},
+	{
+		"id": "city",
+		"type": "DROPDOWN",
+		"text": "City",
+		"dataSource": ["Pune", "Mumbai"]
+	},
+	{
+		"id": "address",
+		"type": "TEXT",
+		"text": "Address"
+	},
+	{
+		"id": "pincode",
+		"type": "INTEGER",
+		"text": "Pincode"
+	},
+	{
+		"id": "next2",
+		"type": "BUTTON",
+		"text": "Next"
+	},
+	{
+		"id": "gender",
+		"type": "DROPDOWN",
+		"text": "Gender",
+		"dataSource": ["Male", "Female"]
+	},
+	{
+		"id": "companyname",
+		"type": "TEXT",
+		"text": "Company Name"
+	},
+
+	{
+		"id": "salary",
+		"type": "INTEGER",
+		"text": "Salary"
+	},
+	{
+		"id": "Position",
+		"type": "CHECKBOX",
+		"text": "Developer"
+	},
+	{
+		"id": "submit",
+		"type": "BUTTON",
+		"text": "Submit"
+	}
+]
